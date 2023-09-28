@@ -233,42 +233,62 @@ margin: 30px 100px;
 }
 
 .footer{
-    background-color: black;
-    height: 300px;
+    background-color: #00252e;
+    height: 30em;
     margin: 0;
     padding: 0;
     position: relative;
 }
 .layon{
-    background-color: green;
+    background-color: white;
     width: 50%;
     height: 200px;
     position: absolute;
-    bottom: 200px;
+    bottom: 25em;
     left: 25%; 
+    border-radius: 1em;
+    box-shadow:0 0 3px #888888;
 }
 .grid-box{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-   background-color: white;
    width: 80%;
    margin-left: auto;
    margin-right: auto;
-   margin-top: 100px;
+   margin-top: 150px;
+   height: 225px;
+   column-gap:50px;
   
 }
 .grid1{
     width: 100%;
-    background-color: pink;
-    height: 200px
+    background-image: linear-gradient(90deg, rgb(255, 255, 255, 0.2), transparent);
+    height:inherit;
+    border-radius: 1em 0px 0px 1em;
+    padding: 1em;
 }
+.grid1-text{
+    display:flex;
+    float: left;
+}
+.grid1-img{
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+}
+
+
+
 .grid2{
     width: 100%;
-    background-color: yellow;
-    height: 200px
+    background-color:#00252e;
+    height: inherit;
+    padding: 1em;
 }
 .grid3{
     width: 100%;
-    background-color: purple;
-    height: 200px
+    background-image: linear-gradient( to left, rgb(255, 255, 255, 0.2), transparent);
+    height:inherit;
+    border-radius: 0em 1em 1em 0em;
+    padding: 1em;
 }
